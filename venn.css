@@ -1,0 +1,128 @@
+/*Style sheet for 1080p Venn webpage*/
+html {
+    min-height: 100%; }
+  
+  body {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#000000, #434343);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  
+  .section {
+    border: 1px solid white;
+    border-radius: 5px;
+    background: linear-gradient(#E0EAFC, #CFDEF3);
+    margin: 20px;
+    position: relative; }
+  
+  h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px grey;
+    margin: 10px; }
+  
+  /*-----------------------------------------Buttons-----------------------------------------------*/
+  button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #001f3f; }
+    button:hover {
+      background-color: #464649; }
+    button:active {
+      background-color: #636b89; }
+    button:disabled {
+      background-color: grey; }
+  
+  #home-button {
+    position: absolute;
+    right: 0;
+    margin-right: 20px; }
+  
+  #continue-button, #home-button {
+    font-size: 30px;
+    padding: 10px;
+    display: none;
+    margin-bottom: 20px; }
+  
+  .mode-button {
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px; }
+  
+  /*--------------------------------------------Game Board-----------------------------------------*/
+  #game {
+    margin: 20px; }
+  
+  #level {
+    display: inline-block;
+    text-align: center; }
+  
+  .circle {
+    width: 400px;
+    height: 400px;
+    padding: 100px;
+    float: left;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 50%; }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    float: left; }
+  
+  .half-square {
+    width: 40px;
+    height: 80px;
+    float: left; }
+  
+  .hard {
+    border-style: solid;
+    border-width: 5px;
+    margin: 20px; }
+    .hard:active, .hard:hover {
+      background-color: red; }
+  
+  .soft {
+    margin: 25px; }
+  
+  .black {
+    background-color: dimgray; }
+    .black:hover {
+      background-color: black; }
+    .black:active {
+      background-color: darkgrey; }
+  
+  .white {
+    background-color: white; }
+    .white:hover {
+      background-color: aliceblue; }
+    .white:active {
+      background-color: azure; }
+  
+  /*------------------------------------------------Survival Mode Functionality--------------------*/
+  #fs-info {
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: none; }
+  
+  #fs-info p {
+    position: relative;
+    margin: 0;
+    padding: 0; }
+  
+  .game-over {
+    color: black;
+    font-size: 50px; }
+  
+  
